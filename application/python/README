@@ -1,5 +1,5 @@
 To start app from web camera, type:
-python web_camera.py ../../rtsi.pkl
+python recognition.py ../../rtsi.pkl
 
 vlc and web app currently not working...
 
@@ -9,7 +9,13 @@ Folder/file structure:
 =*facerec
 =*helper
 
-=Folder with some cool scripts
-=*other
+uses bytefish module and needs some other packages:
+-numpy
+-scipy
+-OpenCV
+-scikit
+-PIL
+-matplotlib
+
 
 
